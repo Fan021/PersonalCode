@@ -1,0 +1,12 @@
+E:\10.c#\StudentDatabase\StudentDatabase\bin\Debug\StudentDatabase.exe.config
+E:\10.c#\StudentDatabase\StudentDatabase\bin\Debug\StudentDatabase.exe
+E:\10.c#\StudentDatabase\StudentDatabase\bin\Debug\StudentDatabase.pdb
+E:\10.c#\StudentDatabase\StudentDatabase\bin\Debug\Database.dll
+E:\10.c#\StudentDatabase\StudentDatabase\bin\Debug\MySql.Data.dll
+E:\10.c#\StudentDatabase\StudentDatabase\bin\Debug\Database.pdb
+E:\10.c#\StudentDatabase\StudentDatabase\obj\Debug\StudentDatabase.csprojResolveAssemblyReference.cache
+E:\10.c#\StudentDatabase\StudentDatabase\obj\Debug\StudentDatabase.Form1.resources
+E:\10.c#\StudentDatabase\StudentDatabase\obj\Debug\StudentDatabase.Properties.Resources.resources
+E:\10.c#\StudentDatabase\StudentDatabase\obj\Debug\StudentDatabase.csproj.GenerateResource.Cache
+E:\10.c#\StudentDatabase\StudentDatabase\obj\Debug\StudentDatabase.exe
+E:\10.c#\StudentDatabase\StudentDatabase\obj\Debug\StudentDatabase.pdb

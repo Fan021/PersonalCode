@@ -1,0 +1,8 @@
+E:\10.c#\LogText\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\10.c#\LogText\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\10.c#\LogText\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\10.c#\LogText\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+E:\10.c#\LogText\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\10.c#\LogText\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+E:\10.c#\LogText\ConsoleApplication1\bin\Debug\LogText.dll
+E:\10.c#\LogText\ConsoleApplication1\bin\Debug\LogText.pdb

@@ -1,0 +1,5 @@
+E:\10.c#\StudentDatabase\Database\bin\Debug\Database.dll
+E:\10.c#\StudentDatabase\Database\bin\Debug\Database.pdb
+E:\10.c#\StudentDatabase\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+E:\10.c#\StudentDatabase\Database\obj\Debug\Database.dll
+E:\10.c#\StudentDatabase\Database\obj\Debug\Database.pdb

@@ -1,0 +1,4 @@
+E:\10.c#\LogText\LogText\bin\Debug\LogText.dll
+E:\10.c#\LogText\LogText\bin\Debug\LogText.pdb
+E:\10.c#\LogText\LogText\obj\Debug\LogText.dll
+E:\10.c#\LogText\LogText\obj\Debug\LogText.pdb

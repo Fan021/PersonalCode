@@ -1,0 +1,14 @@
+2021/2/6 14:05:46 This is the first line of log!
+2021/2/6 14:05:58 Error:This is the first error log...
+2021/2/6 14:06:05 This is the second line of log!
+2021/2/6 14:06:06 This is the thred line of log!
+2021/2/6 14:06:07 This is the forth line of log!
+2021/2/6 14:06:07 Error:This is the second error log...
+2021/2/6 14:06:08 This is the fifth line of log!
+2021/2/6 14:07:10 Info:This is the first line of log!
+2021/2/6 14:07:10 Error:This is the first error log...
+2021/2/6 14:07:11 Info:This is the second line of log!
+2021/2/6 14:07:11 Info:This is the thred line of log!
+2021/2/6 14:07:11 Info:This is the forth line of log!
+2021/2/6 14:07:11 Error:This is the second error log...
+2021/2/6 14:07:12 Info:This is the fifth line of log!
