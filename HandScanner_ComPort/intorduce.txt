@@ -1,0 +1,4 @@
+1.加载HandScanner_ComPort.dll的库；
+2.实例化对象时输入端口号和波特率；
+3.逻辑判断IsBarcodeReady（）方法有没有获得条码；
+4.获得条码后使用GetBarcode（）获取·1条码。

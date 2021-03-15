@@ -1,0 +1,4 @@
+D:\fan021\HandScanner_ComPort\HandScanner_ComPort\bin\Debug\HandScanner_ComPort.dll
+D:\fan021\HandScanner_ComPort\HandScanner_ComPort\bin\Debug\HandScanner_ComPort.pdb
+D:\fan021\HandScanner_ComPort\HandScanner_ComPort\obj\Debug\HandScanner_ComPort.dll
+D:\fan021\HandScanner_ComPort\HandScanner_ComPort\obj\Debug\HandScanner_ComPort.pdb
