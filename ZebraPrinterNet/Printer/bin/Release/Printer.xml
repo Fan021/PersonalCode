@@ -1,0 +1,90 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Printer
+</name>
+</assembly>
+<members>
+<member name="M:Printer.Printer.Init(System.Int32,System.String)">
+	<summary>
+ Initialize printer communication.
+ </summary>
+	<param name="iPort">serial port number</param>
+	<param name="Settings">serial port setting string</param>
+	<returns>0 for success, non-zero for fail</returns>
+</member><member name="M:Printer.Printer.GetField(System.String,System.String,System.String)">
+	<summary>
+ this function get the field data from variable area in the label print file.
+ the prefix is the flag before varialbe
+ the suffix is the flag behide variable
+ </summary>
+	<param name="shortPrintFile">Print file name, short name</param>
+	<param name="prefix">prefix string before variable, cannot be null</param>
+	<param name="suffix">suffix string behide variable, can be null</param>
+	<returns>the field data string</returns>
+</member><member name="M:Printer.Printer.LoadFormatFile(System.String)">
+	<summary>
+ Load format file to the printer internal memory.
+ </summary>
+	<param name="FormatFile">format file path and name</param>
+	<returns>0 for success, non-zero for fail</returns>
+</member><member name="M:Printer.Printer.LoadPrintFile(System.String)">
+	<summary>
+ Load Print file content to this class internal variable.
+ </summary>
+	<param name="PrintFile">Print file path and name</param>
+	<returns>0 for success, non-zero for fail</returns>
+</member><member name="M:Printer.Printer.SetField(System.String,System.String,System.String,System.String)">
+	<summary>
+ this function set the field data to variable area in the label print file.
+ the prefix is the flag before variable
+ the suffix is the flag after variable
+ </summary>
+	<param name="shortPrintFile">Print file name, short name</param>
+	<param name="preField">prefix string before variable, cannot be null</param>
+	<param name="postField">suffix string after variable, can be null</param>
+	<param name="sContent">the field data string to be sent</param>
+	<returns>0 for success, non-zero for fail</returns>
+</member><member name="M:Printer.Printer.PrintLabel(System.String)">
+	<summary>
+ call this function will print label out.
+ this function will automatic replace some specific field with defined data.
+ for example:
+ &lt;Date:yyyyMMdd&gt; stands for 20100426, (if taday is april 26th in 2010year)
+ &lt;Time:HHmm&gt; stands for 10:08.
+ </summary>
+	<param name="shortPrintFile">Print file name, short name</param>
+	<returns>0 for success, non-zero for fail</returns>
+</member><member name="M:Printer.Printer.PrintLastLabel">
+	<summary>
+ call this function will print the last label out.
+ </summary>
+	<returns>0 for success, non-zero for fail</returns>
+</member><member name="M:Printer.Printer.Quit">
+	<summary>
+ Close printer serial communication
+ </summary>
+	<returns>0 for success, non-zero for fail</returns>
+</member><member name="T:Printer.Printer">
+	<summary>
+ The Library for handle label printer functions. 
+ Now only serial port communication is supported.
+ The print files should include label format file and print content file.
+ </summary>
+</member><member name="P:Printer.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Printer.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Printer.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

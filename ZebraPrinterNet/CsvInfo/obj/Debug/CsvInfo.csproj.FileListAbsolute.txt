@@ -1,0 +1,13 @@
+D:\workdetails\102.Demo\8.Damiler_MES_Print_library\ZebraPrinterNet\CsvInfo\bin\Debug\CsvInfo.dll
+D:\workdetails\102.Demo\8.Damiler_MES_Print_library\ZebraPrinterNet\CsvInfo\bin\Debug\CsvInfo.pdb
+D:\workdetails\102.Demo\8.Damiler_MES_Print_library\ZebraPrinterNet\CsvInfo\obj\Debug\CsvInfo.dll
+D:\workdetails\102.Demo\8.Damiler_MES_Print_library\ZebraPrinterNet\CsvInfo\obj\Debug\CsvInfo.pdb
+D:\workdetails\102.Demo\8.Damiler_MES_Print_library\ZebraPrinterNet\CsvInfo\obj\Debug\CsvInfo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\ZebraPrinterNet\CsvInfo\bin\Debug\CsvInfo.dll
+C:\Users\Administrator\Desktop\ZebraPrinterNet\CsvInfo\bin\Debug\CsvInfo.pdb
+C:\Users\Administrator\Desktop\ZebraPrinterNet\CsvInfo\obj\Debug\CsvInfo.dll
+C:\Users\Administrator\Desktop\ZebraPrinterNet\CsvInfo\obj\Debug\CsvInfo.pdb
+D:\temp\ZebraPrinterNet\CsvInfo\bin\Debug\CsvInfo.dll
+D:\temp\ZebraPrinterNet\CsvInfo\bin\Debug\CsvInfo.pdb
+D:\temp\ZebraPrinterNet\CsvInfo\obj\Debug\CsvInfo.dll
+D:\temp\ZebraPrinterNet\CsvInfo\obj\Debug\CsvInfo.pdb

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZebraPrinterNet", "ZebraPrinterNet\ZebraPrinterNet.csproj", "{2BD38C6B-FD51-4158-AA30-2B8F13BBD3E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvInfo", "CsvInfo\CsvInfo.csproj", "{BE0E0A80-1CF7-4BD2-870E-EF89EF54B30D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{5F41C89B-6807-41B2-BE97-FB459965AB19}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Printer", "Printer\Printer.vbproj", "{43C74350-B8B9-4A60-AC20-075E6A09C07F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BD38C6B-FD51-4158-AA30-2B8F13BBD3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD38C6B-FD51-4158-AA30-2B8F13BBD3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD38C6B-FD51-4158-AA30-2B8F13BBD3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD38C6B-FD51-4158-AA30-2B8F13BBD3E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE0E0A80-1CF7-4BD2-870E-EF89EF54B30D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE0E0A80-1CF7-4BD2-870E-EF89EF54B30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE0E0A80-1CF7-4BD2-870E-EF89EF54B30D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE0E0A80-1CF7-4BD2-870E-EF89EF54B30D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F41C89B-6807-41B2-BE97-FB459965AB19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F41C89B-6807-41B2-BE97-FB459965AB19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F41C89B-6807-41B2-BE97-FB459965AB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F41C89B-6807-41B2-BE97-FB459965AB19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43C74350-B8B9-4A60-AC20-075E6A09C07F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C74350-B8B9-4A60-AC20-075E6A09C07F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C74350-B8B9-4A60-AC20-075E6A09C07F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C74350-B8B9-4A60-AC20-075E6A09C07F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

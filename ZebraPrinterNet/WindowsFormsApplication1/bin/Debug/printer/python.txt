@@ -1,0 +1,13 @@
+def SetLabel10516931():
+    WEEK=time.strftime('%W',time.localtime(time.time()));
+    WEEK=int(WEEK) +1;
+    WEEK=format(WEEK, "02d");
+    DayOfWeek=time.strftime('%w',time.localtime(time.time()));    
+    YY=time.strftime('%y',time.localtime(time.time()));
+    YYWWD=YY+WEEK+DayOfWeek;
+    SerialNo=LKSN.ReturnSN();
+    Barcode1="A223 900 54 10/"+YYWWD;
+    Barcode2="/P10516932-01/SN"+SerialNo+"/E017";
+    printer.SetField("DR10516931.txt","^FN6^FD","^FS",YYWWD);    
+    printer.SetField("DR10516931.txt","^FN12^FD","^FS",Barcode1);
+    printer.SetField("DR10516931.txt","^FN13^FD","^FS",Barcode2);

@@ -1,0 +1,58 @@
+Version: 1.0.0
+date :  2010-4-15
+第一版
+
+Version: 1.1.0
+date :  2010-4-16
+增加了调试窗体
+
+Version: 1.2.0
+date :  2010-4-21
+1. 重新定义了Printer的内部函数，保留了以下几个函数：
+   1). GetField
+   2). Init
+   3). InitFromXML
+   4). LoadFormatFile
+   5). LoadPrintFile
+   6). PrintLabel
+   7). Quit
+   8). ShowDebugWindow
+2. 更改了调试窗体的功能。
+
+Version: 1.2.1
+date :  2010-4-21
+1. 修正了调试窗体的bug
+2. 忽略所有函数的SHORTPRINTFILE的大小写
+3. 修正了GETFIELD函数的返回值错误
+
+Version: 1.2.2
+date :  2010-6-2
+1. 修正了发送格式文件延时大的问题
+
+Version: 1.2.3
+date :  2010-6-3
+1. 修正了发送格式文件延时大的问题
+
+Version: 1.2.4
+date :  2010-7-29
+1. 修正了loadformatfile函数的BUG.DATAMAX打印机遇到发送FORMAT文件死机的问题
+
+Version: 1.2.5
+date :  2010-8-2
+1. 修正了执行SetField函数时,PrintTxtList变量误加列表的情况
+
+Version: 1.2.6
+date :  2012-5-8
+1. 增加对序列号支持，定义ISerialNO接口
+
+Version: 1.3.0
+date :  2013-06-18
+1. 增加并口通讯支持
+
+Version: 1.4.0
+date :  2014-08-12
+1. 增加网络通讯支持
+
+Version: 1.4.1
+date :  2014-08-20
+1. 增加网络通讯异常重连处理
