@@ -1,0 +1,5 @@
+C:\Users\fan021\Desktop\temp\XmlHander\XmlHander\bin\Debug\XmlHander.dll
+C:\Users\fan021\Desktop\temp\XmlHander\XmlHander\bin\Debug\XmlHander.pdb
+C:\Users\fan021\Desktop\temp\XmlHander\XmlHander\obj\Debug\XmlHander.csprojResolveAssemblyReference.cache
+C:\Users\fan021\Desktop\temp\XmlHander\XmlHander\obj\Debug\XmlHander.dll
+C:\Users\fan021\Desktop\temp\XmlHander\XmlHander\obj\Debug\XmlHander.pdb

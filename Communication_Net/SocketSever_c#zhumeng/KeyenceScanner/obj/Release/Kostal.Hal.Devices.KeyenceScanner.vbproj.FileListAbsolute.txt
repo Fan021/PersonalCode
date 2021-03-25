@@ -1,0 +1,9 @@
+C:\Users\zhu57\Desktop\Testman Start Up\Kostal.Testman.Startup_3.2.1.0__NET46\lib\hal\Kostal.Hal.Devices.KeyenceScanner.dll
+C:\Users\zhu57\Desktop\Testman Start Up\Kostal.Testman.Startup_3.2.1.0__NET46\lib\hal\Kostal.Hal.Devices.KeyenceScanner.pdb
+C:\Users\zhu57\Desktop\Testman Start Up\Kostal.Testman.Startup_3.2.1.0__NET46\lib\hal\Kostal.Hal.Devices.KeyenceScanner.xml
+C:\Users\zhu57\Desktop\Testman Start Up\Kostal.Testman.Startup_3.2.1.0__NET46\src\Kostal.Hal.Devices.KeyenceScanner\obj\Release\Kostal.Hal.Devices.KeyenceScanner.vbprojResolveAssemblyReference.cache
+C:\Users\zhu57\Desktop\Testman Start Up\Kostal.Testman.Startup_3.2.1.0__NET46\src\Kostal.Hal.Devices.KeyenceScanner\obj\Release\Kostal.Hal.Devices.Resources.resources
+C:\Users\zhu57\Desktop\Testman Start Up\Kostal.Testman.Startup_3.2.1.0__NET46\src\Kostal.Hal.Devices.KeyenceScanner\obj\Release\Kostal.Hal.Devices.KeyenceScanner.vbproj.GenerateResource.Cache
+C:\Users\zhu57\Desktop\Testman Start Up\Kostal.Testman.Startup_3.2.1.0__NET46\src\Kostal.Hal.Devices.KeyenceScanner\obj\Release\Kostal.Hal.Devices.KeyenceScanner.dll
+C:\Users\zhu57\Desktop\Testman Start Up\Kostal.Testman.Startup_3.2.1.0__NET46\src\Kostal.Hal.Devices.KeyenceScanner\obj\Release\Kostal.Hal.Devices.KeyenceScanner.xml
+C:\Users\zhu57\Desktop\Testman Start Up\Kostal.Testman.Startup_3.2.1.0__NET46\src\Kostal.Hal.Devices.KeyenceScanner\obj\Release\Kostal.Hal.Devices.KeyenceScanner.pdb

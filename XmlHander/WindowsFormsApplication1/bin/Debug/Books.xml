@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Books>
+  <Book>
+    <Name Language="English" Author="Mr Luo">三国演义</Name>
+    <Price>70</Price>
+    <Des>好看</Des>
+  </Book>
+  <Book>
+    <Name>西游记</Name>
+    <Price>80</Price>
+    <Des>还不错</Des>
+  </Book>
+  <Book>
+    <Name>c#开发大全</Name>
+    <Price>110</Price>
+    <Des>看不懂</Des>
+  </Book>
+</Books>

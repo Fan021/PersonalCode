@@ -1,0 +1,9 @@
+socketserver
+1.加入socketserver各代码以及Keyence的库
+2.配初始化扫描枪
+3.初始化scoketserver，初始化自己电脑的端口
+4.建立start开始侦听
+
+socketclient
+1.加入socketserver各代码
+2.配置服务端网口信息，更改客户端网口网段和服务端一致

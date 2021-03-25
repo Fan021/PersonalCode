@@ -1,0 +1,11 @@
+C:\Users\fan021\Desktop\temp\Communication_Net\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\fan021\Desktop\temp\Communication_Net\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\fan021\Desktop\temp\Communication_Net\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\fan021\Desktop\temp\Communication_Net\WindowsFormsApplication1\bin\Debug\Communication_Net.dll
+C:\Users\fan021\Desktop\temp\Communication_Net\WindowsFormsApplication1\bin\Debug\Communication_Net.pdb
+C:\Users\fan021\Desktop\temp\Communication_Net\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\fan021\Desktop\temp\Communication_Net\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\fan021\Desktop\temp\Communication_Net\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\fan021\Desktop\temp\Communication_Net\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\fan021\Desktop\temp\Communication_Net\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\fan021\Desktop\temp\Communication_Net\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

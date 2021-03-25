@@ -1,0 +1,5 @@
+C:\Users\fan021\Desktop\temp\Communication_Net\Communication_Net\bin\Debug\Communication_Net.dll
+C:\Users\fan021\Desktop\temp\Communication_Net\Communication_Net\bin\Debug\Communication_Net.pdb
+C:\Users\fan021\Desktop\temp\Communication_Net\Communication_Net\obj\Debug\Communication_Net.csprojResolveAssemblyReference.cache
+C:\Users\fan021\Desktop\temp\Communication_Net\Communication_Net\obj\Debug\Communication_Net.dll
+C:\Users\fan021\Desktop\temp\Communication_Net\Communication_Net\obj\Debug\Communication_Net.pdb

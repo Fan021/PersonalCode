@@ -1,0 +1,13 @@
+C:\Users\zhu57\Desktop\Socket\SocketSever2\bin\Debug\SocketSever2.exe.config
+C:\Users\zhu57\Desktop\Socket\SocketSever2\bin\Debug\SocketSever2.exe
+C:\Users\zhu57\Desktop\Socket\SocketSever2\bin\Debug\SocketSever2.pdb
+C:\Users\zhu57\Desktop\Socket\SocketSever2\obj\Debug\SocketSever2.csprojResolveAssemblyReference.cache
+C:\Users\zhu57\Desktop\Socket\SocketSever2\obj\Debug\SocketSever2.Properties.Resources.resources
+C:\Users\zhu57\Desktop\Socket\SocketSever2\obj\Debug\SocketSever2.Server.resources
+C:\Users\zhu57\Desktop\Socket\SocketSever2\obj\Debug\SocketSever2.csproj.GenerateResource.Cache
+C:\Users\zhu57\Desktop\Socket\SocketSever2\obj\Debug\SocketSever2.exe
+C:\Users\zhu57\Desktop\Socket\SocketSever2\obj\Debug\SocketSever2.pdb
+C:\Users\zhu57\Desktop\Socket\SocketSever2\obj\Debug\SocketSever2.FrmTcpServer.resources
+C:\Users\zhu57\Desktop\Socket\SocketSever_c#\bin\Debug\SocketSever2.exe.config
+C:\Users\zhu57\Desktop\Socket\SocketSever_c#\obj\Debug\SocketSever2.exe
+C:\Users\zhu57\Desktop\Socket\SocketSever_c#\obj\Debug\SocketSever2.pdb

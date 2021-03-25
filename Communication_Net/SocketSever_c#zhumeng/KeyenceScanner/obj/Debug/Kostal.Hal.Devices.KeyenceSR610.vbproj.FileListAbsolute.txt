@@ -1,0 +1,9 @@
+C:\Kprojects\lib\hal\Kostal.Hal.Devices.KeyenceSR610.dll
+C:\Kprojects\lib\hal\Kostal.Hal.Devices.KeyenceSR610.pdb
+C:\Kprojects\lib\hal\Kostal.Hal.Devices.KeyenceSR610.xml
+C:\Kprojects\src\Kostal.Hal.Devices.KeyenceSR610\obj\Debug\Kostal.Hal.Devices.KeyenceSR610.vbprojResolveAssemblyReference.cache
+C:\Kprojects\src\Kostal.Hal.Devices.KeyenceSR610\obj\Debug\Kostal.Hal.Devices.Resources.resources
+C:\Kprojects\src\Kostal.Hal.Devices.KeyenceSR610\obj\Debug\Kostal.Hal.Devices.KeyenceSR610.vbproj.GenerateResource.Cache
+C:\Kprojects\src\Kostal.Hal.Devices.KeyenceSR610\obj\Debug\Kostal.Hal.Devices.KeyenceSR610.dll
+C:\Kprojects\src\Kostal.Hal.Devices.KeyenceSR610\obj\Debug\Kostal.Hal.Devices.KeyenceSR610.xml
+C:\Kprojects\src\Kostal.Hal.Devices.KeyenceSR610\obj\Debug\Kostal.Hal.Devices.KeyenceSR610.pdb

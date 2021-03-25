@@ -1,0 +1,51 @@
+C:\Users\zhu57\Desktop\Socket\SocketSever_c#\SocketServer\bin\Debug\SocketSever2.exe.config
+C:\Users\zhu57\Desktop\Socket\SocketSever_c#\SocketServer\obj\Debug\SocketSever2.exe
+C:\Users\zhu57\Desktop\Socket\SocketSever_c#\SocketServer\obj\Debug\SocketSever2.pdb
+C:\Users\zhu57\Desktop\Socket\SocketSever_c#\SocketServer\bin\Debug\SocketSever2.exe
+C:\Users\zhu57\Desktop\Socket\SocketSever_c#\SocketServer\bin\Debug\SocketSever2.pdb
+C:\Users\zhu57\Desktop\Socket\SocketSever_c#\SocketServer\bin\Debug\KeyenceScanner.dll
+C:\Users\zhu57\Desktop\Socket\SocketSever_c#\SocketServer\bin\Debug\KeyenceScanner.pdb
+C:\Users\zhu57\Desktop\Socket\SocketSever_c#\SocketServer\bin\Debug\KeyenceScanner.xml
+C:\Users\zhu57\Desktop\Socket\SocketSever_c#\SocketServer\obj\Debug\SocketServer.csprojResolveAssemblyReference.cache
+C:\Users\zhu57\Desktop\Socket\SocketSever_c#\SocketServer\obj\Debug\SocketSever2.Properties.Resources.resources
+C:\Users\zhu57\Desktop\Socket\SocketSever_c#\SocketServer\obj\Debug\SocketServer.csproj.GenerateResource.Cache
+C:\Users\zhu57\Desktop\Socket\SocketSever_c#\SocketServer\obj\Debug\SocketSever.FormTcpServer.resources
+D:\Projects\Supports\SocketSever_c#\SocketServer\bin\Debug\KeyenceScanner.dll
+D:\Projects\Supports\SocketSever_c#\SocketServer\bin\Debug\KeyenceScanner.pdb
+D:\Projects\Supports\SocketSever_c#\SocketServer\bin\Debug\KeyenceScanner.xml
+D:\Projects\Supports\SocketSever_c#\SocketServer\obj\Debug\SocketServer.csprojResolveAssemblyReference.cache
+D:\Projects\Supports\SocketSever_c#\SocketServer\obj\Debug\SocketSever.FormTcpServer.resources
+D:\Projects\Supports\SocketSever_c#\SocketServer\obj\Debug\SocketServer.csproj.GenerateResource.Cache
+D:\Projects\Supports\SocketSever_c#\SocketServer\bin\Debug\SocketSever.exe.config
+D:\Projects\Supports\SocketSever_c#\SocketServer\bin\Debug\SocketSever.exe
+D:\Projects\Supports\SocketSever_c#\SocketServer\bin\Debug\SocketSever.pdb
+D:\Projects\Supports\SocketSever_c#\SocketServer\obj\Debug\SocketSever.Properties.Resources.resources
+D:\Projects\Supports\SocketSever_c#\SocketServer\obj\Debug\SocketSever.exe
+D:\Projects\Supports\SocketSever_c#\SocketServer\obj\Debug\SocketSever.pdb
+D:\Projects\Supports\SocketSever_c#\SocketServer - Copy\bin\Debug\SocketSever.exe.config
+D:\Projects\Supports\SocketSever_c#\SocketServer - Copy\obj\Debug\SocketSever.exe
+D:\Projects\Supports\SocketSever_c#\SocketServer - Copy\obj\Debug\SocketSever.pdb
+D:\Projects\Supports\SocketSever_c#\SocketServer - Copy\obj\Debug\SocketServer.csprojResolveAssemblyReference.cache
+D:\Projects\Supports\SocketSever_c#\SocketServer - Copy\obj\Debug\SocketSever.FormTcpServer.resources
+D:\Projects\Supports\SocketSever_c#\SocketServer - Copy\obj\Debug\SocketSever.Properties.Resources.resources
+D:\Projects\Supports\SocketSever_c#\SocketServer - Copy\obj\Debug\SocketServer.csproj.GenerateResource.Cache
+D:\Projects\Supports\SocketSever_c#\SocketServer - Copy\bin\Debug\SocketSever.exe
+D:\Projects\Supports\SocketSever_c#\SocketServer - Copy\bin\Debug\SocketSever.pdb
+D:\Projects\Supports\SocketSever_c#\SocketServer - Copy\bin\Debug\KeyenceScanner.dll
+D:\Projects\Supports\SocketSever_c#\SocketServer - Copy\bin\Debug\KeyenceScanner.pdb
+D:\Projects\Supports\SocketSever_c#\SocketServer - Copy\bin\Debug\KeyenceScanner.xml
+D:\Projects\Supports\SocketSever_c#\SocketServer_Last\bin\Debug\SocketSever.exe.config
+D:\Projects\Supports\SocketSever_c#\SocketServer_Last\obj\Debug\SocketSever.exe
+D:\Projects\Supports\SocketSever_c#\SocketServer_Last\obj\Debug\SocketSever.pdb
+D:\workdetails\8.Mes\SocketSever_c#\SocketServer_Last\bin\Debug\SocketSever.exe.config
+D:\workdetails\8.Mes\SocketSever_c#\SocketServer_Last\obj\Debug\SocketSever.exe
+D:\workdetails\8.Mes\SocketSever_c#\SocketServer_Last\obj\Debug\SocketSever.pdb
+D:\workdetails\8.Mes\SocketSever_c#\SocketServer_Last\bin\Debug\SocketSever.exe
+D:\workdetails\8.Mes\SocketSever_c#\SocketServer_Last\bin\Debug\SocketSever.pdb
+D:\workdetails\8.Mes\SocketSever_c#\SocketServer_Last\bin\Debug\KeyenceScanner.dll
+D:\workdetails\8.Mes\SocketSever_c#\SocketServer_Last\bin\Debug\KeyenceScanner.pdb
+D:\workdetails\8.Mes\SocketSever_c#\SocketServer_Last\bin\Debug\KeyenceScanner.xml
+D:\workdetails\8.Mes\SocketSever_c#\SocketServer_Last\obj\Debug\SocketServer.csprojResolveAssemblyReference.cache
+D:\workdetails\8.Mes\SocketSever_c#\SocketServer_Last\obj\Debug\SocketSever.FormTcpServer.resources
+D:\workdetails\8.Mes\SocketSever_c#\SocketServer_Last\obj\Debug\SocketSever.Properties.Resources.resources
+D:\workdetails\8.Mes\SocketSever_c#\SocketServer_Last\obj\Debug\SocketServer.csproj.GenerateResource.Cache

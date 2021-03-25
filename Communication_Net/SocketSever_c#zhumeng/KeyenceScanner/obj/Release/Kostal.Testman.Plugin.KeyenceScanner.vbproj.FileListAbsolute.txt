@@ -1,0 +1,9 @@
+C:\Users\zhu57\Desktop\Testman Start Up\Kostal.Testman.Startup_3.2.1.0__NET46\src\Kostal.Testman.Plugin.KeyenceScanner\obj\Release\Kostal.Testman.Plugin.KeyenceScanner.vbprojResolveAssemblyReference.cache
+C:\Users\zhu57\Desktop\Testman Start Up\Kostal.Testman.Startup_3.2.1.0__NET46\src\Kostal.Testman.Plugin.KeyenceScanner\obj\Release\Kostal.Testman.Plugin.Resources.resources
+C:\Users\zhu57\Desktop\Testman Start Up\Kostal.Testman.Startup_3.2.1.0__NET46\src\Kostal.Testman.Plugin.KeyenceScanner\obj\Release\Kostal.Testman.Plugin.KeyenceScanner.vbproj.GenerateResource.Cache
+C:\Users\zhu57\Desktop\Testman Start Up\Kostal.Testman.Startup_3.2.1.0__NET46\lib\Plugin\Plugin.KeyenceScanner\Kostal.Testman.Plugin.KeyenceScanner.dll
+C:\Users\zhu57\Desktop\Testman Start Up\Kostal.Testman.Startup_3.2.1.0__NET46\lib\Plugin\Plugin.KeyenceScanner\Kostal.Testman.Plugin.KeyenceScanner.pdb
+C:\Users\zhu57\Desktop\Testman Start Up\Kostal.Testman.Startup_3.2.1.0__NET46\lib\Plugin\Plugin.KeyenceScanner\Kostal.Testman.Plugin.KeyenceScanner.xml
+C:\Users\zhu57\Desktop\Testman Start Up\Kostal.Testman.Startup_3.2.1.0__NET46\src\Kostal.Testman.Plugin.KeyenceScanner\obj\Release\Kostal.Testman.Plugin.KeyenceScanner.dll
+C:\Users\zhu57\Desktop\Testman Start Up\Kostal.Testman.Startup_3.2.1.0__NET46\src\Kostal.Testman.Plugin.KeyenceScanner\obj\Release\Kostal.Testman.Plugin.KeyenceScanner.xml
+C:\Users\zhu57\Desktop\Testman Start Up\Kostal.Testman.Startup_3.2.1.0__NET46\src\Kostal.Testman.Plugin.KeyenceScanner\obj\Release\Kostal.Testman.Plugin.KeyenceScanner.pdb
