@@ -1,0 +1,10 @@
+C:\Users\fan021\Desktop\temp\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+D:\30.Vector\document\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+D:\30.Vector\document\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+D:\30.Vector\document\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+D:\30.Vector\document\ConsoleApplication2\ConsoleApplication2\bin\Debug\vector.dll
+D:\30.Vector\document\ConsoleApplication2\ConsoleApplication2\bin\Debug\vxlapi_NET.dll
+D:\30.Vector\document\ConsoleApplication2\ConsoleApplication2\bin\Debug\vector.pdb
+D:\30.Vector\document\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
+D:\30.Vector\document\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+D:\30.Vector\document\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb

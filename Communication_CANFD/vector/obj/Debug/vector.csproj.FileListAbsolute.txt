@@ -1,0 +1,12 @@
+D:\30.Vector\document\ConsoleApplication2\vector\bin\Debug\vector.dll
+D:\30.Vector\document\ConsoleApplication2\vector\bin\Debug\vector.pdb
+D:\30.Vector\document\ConsoleApplication2\vector\bin\Debug\vxlapi_NET.dll
+D:\30.Vector\document\ConsoleApplication2\vector\obj\Debug\vector.csprojResolveAssemblyReference.cache
+D:\30.Vector\document\ConsoleApplication2\vector\obj\Debug\vector.dll
+D:\30.Vector\document\ConsoleApplication2\vector\obj\Debug\vector.pdb
+C:\Users\Administrator\Desktop\temp\ConsoleApplication2\vector\bin\Debug\vector.dll
+C:\Users\Administrator\Desktop\temp\ConsoleApplication2\vector\bin\Debug\vector.pdb
+C:\Users\Administrator\Desktop\temp\ConsoleApplication2\vector\bin\Debug\vxlapi_NET.dll
+C:\Users\Administrator\Desktop\temp\ConsoleApplication2\vector\obj\Debug\vector.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\temp\ConsoleApplication2\vector\obj\Debug\vector.dll
+C:\Users\Administrator\Desktop\temp\ConsoleApplication2\vector\obj\Debug\vector.pdb
