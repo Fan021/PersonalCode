@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+		<title>OCC MES</title>
+
+        <link href="../style/css/Main.css" rel="stylesheet" />
+        <link href="../style/css/bootstrap.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="../style/css/default.css" />
+        <link rel="stylesheet" type="text/css" href="../style/css/component.css" />
+
+        <script src="../style/js/jquery-3.3.1.min.js"></script>
+        <script src="../style/js/modernizr.custom.js"></script>
+        <script src="../style/js/bootstrap.js"></script>
+
+        <style>
+            /*隐藏纵向滚动条*/
+            ::-webkit-scrollbar {
+                display: none!important;
+            }
+        </style>
+        <script>
+            var frame = null;
+
+            $(function () {
+                frame = document.getElementById('ifm_io');
+
+                document.getElementById('li_produce').style.width = '105%';
+                $("#panel_produce").removeClass("div_hide");
+                $("#panel_produce").addClass("div_show");
+
+                var stName = form_syn.getStationName();
+                if (stName != "") {
+                    $("#stName").text(stName);
+                }
+                else {
+                    document.getElementById('tr_st').style.display = "none";
+                    document.getElementById('tr_stName').style.display = "none";
+                    document.getElementById('tr_time').style.display = "block";
+                }
+
+            });
+
+            window.onload = function () {
+                GetTime();
+            }
+
+            function GetTime() {
+                $("#time").text(new Date().toLocaleString());
+                setTimeout('GetTime()', 1000);
+            }
+
+            function setPage(i) {
+                var diff = i.toLowerCase();
+
+                var panels = $(".work_panel");
+                $(panels).each(function (j) {
+                    $(panels[j]).slideUp();
+                });
+
+                var lis = $(".ul_left").find('li');
+                $(lis).each(function (j) {
+                    $(lis[j]).removeAttr("style");
+                });
+
+                $("#panel_" + diff).slideDown();
+                document.getElementById('li_' + diff).style.width = '105%';
+                document.getElementById('li_' + diff).style.transitionProperty = 'all';
+                document.getElementById('li_' + diff).style.transitionDuration = '0.5s';
+
+                if (i == "IO") {
+                    form_syn.mesEnable(false);
+                    frame.contentWindow.postMessage("startTimer", '*');          
+                } else {
+                    form_syn.mesEnable(true);
+                    frame.contentWindow.postMessage("closeTimer", '*');  
+                }
+
+            }
+
+            function logout() {
+                frame.contentWindow.postMessage("closeTimer", '*');
+                form_async.logout();
+            }
+
+            //调出F12
+            window.onkeydown = function (event) {
+                if (event.keyCode == 123)
+                    form_syn.showDebugTools();
+            }
+        </script>
+	</head>
+	<body>
+	
+		<div class="crius_container" id="main_frame">	
+     
+            <!--左边菜单栏-->
+			<div class="main clearfix float_panel" style="width:190px">
+                <div style="overflow-y:scroll;height:100%">
+                    <nav id="menu" class="crius_nav">
+                        <ul class="ul_left" id="ul_menu">
+                            <li id="li_produce">
+                                <a href="#" onclick="setPage('Produce')">
+                                    <span class="icon">
+                                        <i aria-hidden="true" class="icon-produce"></i>
+                                    </span>
+                                    <span style="font-size:22px;">运行</span>
+                                </a>
+                            </li>
+                            <li id="li_para">
+                                <a href="#" onclick="setPage('Para')">
+                                    <span class="icon">
+                                        <i aria-hidden="true" class="icon-para"></i>
+                                    </span>
+                                    <span style="font-size:22px;">参数设置</span>
+                                </a>
+                            </li>
+                            <li id="li_io">
+                                <a href="#" onclick="setPage('IO')">
+                                    <span class="icon">
+                                        <i aria-hidden="true" class="icon-io"></i>
+                                    </span>
+                                    <span style="font-size:22px;">调试</span>
+                                </a>
+                            </li>
+                            <li id="li_logout">
+                                <a href="#" onclick="logout()">
+                                    <span class="icon">
+                                        <i aria-hidden="true" class="icon-logout"></i>
+                                    </span>
+                                    <span style="font-size:22px;">退出</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div style="margin:auto;position:absolute; top:450px; bottom:0px; width:180px">
+                            <table style="width:100%; background-color:#000000; height:100%; text-align:center;font-size:34px;color:white;font-family:'Lato', Calibri, Arial, 'SimHei';">
+                                <tr><td></td></tr>
+                                <tr id="tr_st" style="height:50px"><td>工位</td></tr>
+                                <tr id="tr_stName" style="height:80px"><td id="stName"></td></tr>
+                                <tr id="tr_time" style="display:none"><td id="time"></td></tr>
+                                <tr><td></td></tr>
+                            </table>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <!----------------------------------工作区页面------------------------------------------>
+
+            <!--Produce task-->
+            <div id="panel_produce" class="work_panel div_hide">              
+                    <iframe src="Produce.html" style="width:100%;height:980px;border:none" name="ifm_produce" id="ifm_produce"></iframe>             
+            </div>
+           
+            <!--Set Parameter task-->
+            <div id="panel_para" class="work_panel div_hide">
+                <iframe src="SetParameter.html" style="width:100%;height:980px;border:none" name="ifm_para" id="ifm_para"></iframe>
+            </div>
+
+            <!--IO task-->
+            <div id="panel_io" class="work_panel div_hide">
+                <iframe src="IO.html" style="width:100%;height:980px;border:none" name="ifm_io" id="ifm_io"></iframe>
+            </div>
+
+		</div><!-- /container -->	
+	</body>
+</html>

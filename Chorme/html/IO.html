@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <title>IO调试</title>
+
+    <link href="../style/css/Main.css" rel="stylesheet" />
+    <link href="../style/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../style/css/component.css" />
+    <link href="../style/css/jquery.alertable.css" rel="stylesheet" />
+    <link href="../style/css/btn.style.css" rel="stylesheet" />
+
+    <script src="../style/js/modernizr.custom.js"></script>
+    <script src="../style/js/jquery-3.3.1.min.js"></script>
+    <script src="../style/js/bootstrap.js"></script>
+    <script src="../style/js/jquery.alertable.js"></script> 
+    <script src="../style/js/btn.index.js"></script>
+
+    <script src="../js/IO.js"></script> 
+
+    <style>
+        html,body{margin:0px;height:100%}
+        .cus-line{
+            height: 2px;
+            width: 100%;
+            background: -webkit-linear-gradient(left,rgba(255, 255, 255, 0),#5DDDD3,rgba(255,255,255,0));
+            background: linear-gradient(to right, rgba(255, 255, 255, 0),#5DDDD3,rgba(255,255,255,0));
+
+        }
+        .sensor-green{
+            /*border: 1px solid rgba(59, 235, 80, 1); 
+            box-shadow: 0 1px 30px rgba(59, 255, 60, 1);*/ 
+            opacity: 1;
+            border: 1px solid #45ab8e;/*#51c9a7;*/
+            box-shadow: 0 1px 40px #03ffb8;
+            background:-webkit-linear-gradient(top,#51c9a7,#4d9683);
+        }
+        .sensor-yellow{
+            opacity: 1;
+            border: 1px solid #b1b102;
+            box-shadow: 0 1px 40px #FFFF00;
+            background: -webkit-linear-gradient(top,#FFD700,#DAA520);
+        }
+        .sensor{
+            border-radius:50%;height:60px;width:60px;font-size:30px;font-family:'SimHei';font-weight:unset;margin:0 auto;
+        }
+        .sensor-disabled{
+            /*color:#505050!important;*/
+            /*box-shadow: 0 1px 0 #616a74 inset, 0 1px 5px #212528;
+            background: -webkit-linear-gradient(top,#474d54,#2f363d);*/
+
+            box-shadow: 0 1px 0 rgb(144, 156, 169) inset, 0 1px 5px #5f666b;
+            background: -webkit-linear-gradient(top,#747d88,#4b5054);
+            border:unset;
+        }
+        .rkmd-btn{
+            border-radius:5px;height:60px;font-size:28px;font-family:'SimHei';font-weight:unset;
+        }
+        .btn-green{
+            color: white!important;
+            text-shadow: 0 1px 0 #528B8B;
+            border: 1px solid #366d6d;
+            box-shadow: 0 1px 0 #9de3cf inset, 0 1px 5px #549e89;
+            background: -webkit-linear-gradient(top,#51c9a7,#4d9683);
+        }
+        .btn-grey{
+            color: white!important;
+            text-shadow: 0 1px 0 #484f58;
+            border: 1px solid #404040;
+            box-shadow: 0 1px 0 #A9A9A9 inset, 0 1px 5px #808080;
+            background: -webkit-linear-gradient(top,#747d88,#4b5054);
+        }
+    </style>
+</head>
+<body> 
+    <div class="panel-body">
+        <div class="panel-heading" style="font-size:36px;text-align:center;text-shadow: 1px 1px 2px #eee, 0 0 1em #049df9, 0 0 0.2em #089ef9;">IO调试</div>
+        <div class="cus-line"></div>
+        <div style="height:90%;width:90%;margin:0 auto;margin-top:10px;margin-bottom:10px">
+            <div class="panel panel-default" style="height:100%;box-shadow:#5dddd3 0 0 50px inset;background-color:rgba(93, 221, 211, 0.1);padding:20px;height:800px;">
+                <div class="panel-body">
+                    <div style="text-align:center;">
+                        <table style="font-size:26px;width:100%;" id="ioTable">
+                            <tr style="height:300px" id="tr_input">
+                            </tr>
+                            <tr style="height:300px" id="tr_output">
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="cus-line" style="margin-bottom:50px"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,303 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>运行</title>
+
+    <link href="../style/css/Main.css" rel="stylesheet" />
+    <link href="../style/css/bootstrap.css" rel="stylesheet" />
+    <!--<link href="../style/css/bootstrap-table.css" rel="stylesheet" />-->
+    <link rel="stylesheet" type="text/css" href="../style/css/component.css" />
+    <link href="../style/css/btn.style.css" rel="stylesheet" />
+
+    <script src="../style/js/jquery-3.3.1.min.js"></script>
+    <script src="../style/js/bootstrap.js"></script>
+    <!--<script src="../style/js/bootstrap-table.js"></script>-->
+    <!--<script src="../style/js/locale/bootstrap-table-zh-CN.js"></script>-->
+    <script src="../style/js/btn.index.js"></script>
+    
+    <script src="../js/Produce.js"></script>
+    <style>
+        html,body{
+            margin:0px;height:100%;
+
+        }
+        .fixed-table-container thead th{
+            font-size:26px;
+        }
+        .cus-panel{
+            /*background-color:rgba(96,96,96,0.1);*/
+            /*border:1px solid #606060;*/
+            margin-bottom:10px;
+            font-size:26px;
+            padding:10px;
+            width:99%;
+        }
+        .cus-label{
+            font-weight:unset;
+            min-width:110px;
+            
+        }
+        .cus-div{
+            min-width:300px!important;
+            padding-right:unset;
+            padding-left:unset;
+        }
+        .cus-tag{
+            font-size:18px;margin-right:10px;
+        }
+        .cus-input-readonly{
+            font-size:28px;height:45px;width: 540px;
+        }
+        .cus-sfc-div{
+            line-height: 1.9;
+            /*font-size: 28px;*/
+        }
+        .cus-variant-div{
+            height:45px;line-height: 50px;text-align:left;
+        }
+        .rkmd-btn{
+            width:120px;font-family:'SimHei';font-weight:unset;
+        }
+        .btn-pink{
+            color: #444;
+            font-size: 26px;
+            text-shadow: 0 1px 0 #ca484d;
+            border: 1px solid #a02b2f;
+            box-shadow: 0 1px 0 #EF717A inset, 0 1px 5px #D95459;
+            background: -webkit-linear-gradient(top,#ef5964,#ce4146);
+        }
+        .btn-green{
+            color: white!important;
+            font-size: 28px;
+            text-shadow: 0 1px 0 #528B8B;
+            border: 1px solid #366d6d;
+            box-shadow: 0 1px 0 #9de3cf inset, 0 1px 5px #549e89;
+            background: -webkit-linear-gradient(top,#51c9a7,#4d9683);
+        }
+        .btn-red{
+            color: white!important;
+            font-size: 30px;
+            text-shadow: 0 1px 0 #CD3700;
+            border: 1px solid #CD0000;
+            box-shadow: 0 1px 0 #EE6363 inset, 0 1px 5px #EE0000;
+            background: -webkit-linear-gradient(top,#EE4000,#DC143C);
+    
+        }
+        .complete{
+            box-shadow: #00ff00 0 0 20px inset;
+            background-color: rgba(0, 255, 0, 0.15);
+        }
+        .doing{
+            box-shadow: #00ffff 0 0 20px inset;
+            background-color: rgba(0, 255, 255, 0.15);
+        }
+        .error{
+            box-shadow: #ff0000 0 0 20px inset;
+            background-color: rgba(255, 0, 0, 0.2);
+        }
+        .input-complete{
+            background-color:transparent!important;
+            /*color:#C0C0C0;*/
+            border:unset;
+        }
+        .form-group{
+            margin-bottom: 10px;
+        }
+        .cus-alert{
+            margin-bottom:10px;
+            font-size:36px;
+            padding-left:20px;
+            /*height:70px;
+            line-height:1.7;*/
+            /*text-align:center;*/
+            /*color: #99f5ee;
+            text-shadow: 1px 1px 2px black, 0 0 1em #5dddd3, 0 0 0.2em #5dddd3;*/
+            word-wrap:break-word;
+        }
+        .rkmd-btn.disabled, .rkmd-btn[disabled]{
+            /*color:#505050!important;*/
+            /*box-shadow: 0 1px 0 #616a74 inset, 0 1px 5px #212528!important;
+            background: -webkit-linear-gradient(top,#474d54,#2f363d)!important;*/
+            box-shadow: 0 1px 0 rgb(144, 156, 169) inset, 0 1px 5px #5f666b!important;
+            background: -webkit-linear-gradient(top,#747d88,#4b5054)!important;
+            border:unset;
+            color:#000!important;
+            font-size:30px;
+        }
+        .cus-horizontal-line{
+            height: 2px;
+            width: 100%;
+            background: -webkit-linear-gradient(left,rgba(255, 255, 255, 0),#5DDDD3,rgba(255,255,255,0));
+            background: linear-gradient(to right, rgba(255, 255, 255, 0),#5DDDD3,rgba(255,255,255,0));
+
+        }
+        .cus-vertical-line{
+            position: absolute;width:2px;
+            background: -webkit-linear-gradient(top,rgba(255, 255, 255, 0),#5DDDD3,rgba(255,255,255,0));
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0),#5DDDD3,rgba(255,255,255,0));
+        }
+        .alert-danger{
+            color:#ff0000!important;
+        }
+        /******MES启用开关样式Start******/
+        *, *:before,
+        *:after {
+          box-sizing: border-box;
+        }  
+        .toggle {
+          position: relative;
+          display: block;
+          margin: 0 auto;
+          width: 165px;
+          height: 60px;
+          color: white;
+          outline: 0;
+          text-decoration: none;
+          border-radius: 100px;
+          border: 2px solid #546E7A;
+          background-color: #263238;
+          transition: all 500ms;
+        }
+        .toggle:active {
+          background-color: #1c2429;
+        }
+        .toggle:hover:not(.toggle--moving):after {
+          background-color: #455A64;
+        }
+        .toggle:after {
+          display: block;
+          position: absolute;
+          top: 4px;
+          bottom: 4px;
+          left: 4px;
+          width: calc(50% - 4px);
+          line-height: 45px;
+          text-align: center;
+          text-transform: uppercase;
+          font-size: 20px;
+          color: white;
+          background-color: #37474F;
+          border: 2px solid;
+          transition: all 500ms;
+        }
+        .toggle--on:after {
+          content: '开';
+          border-radius: 50px 5px 5px 50px;
+          color: #00ff00;/*#66BB6A;*/
+          font-family:SimHei;
+          font-size:26px;
+        }
+        .toggle--off:after {
+          content: '关';
+          border-radius: 5px 50px 50px 5px;
+          transform: translate(100%, 0);
+          color: #ff0000;/*#f44336;*/
+          font-family:SimHei;
+          font-size:26px;
+        }
+        .toggle--moving {
+          background-color: #1c2429;
+        }
+        .toggle--moving:after {
+          color: transparent;
+          border-color: #435862;
+          background-color: #222c31;
+          transition: color 0s, transform 500ms, border-radius 500ms,background-color 500ms;
+        }
+        /******MES启用开关样式End******/
+        /******滚动条样式Start******/
+        .cus-scrollbar::-webkit-scrollbar{
+            width:10px;
+        }
+        .cus-scrollbar::-webkit-scrollbar-thumb{
+            background-color:#505A66;
+            border-radius:5px;
+        }
+        /******滚动条样式End******/
+    </style>
+</head>
+<body>
+    <div class="panel-body">
+        <!--message 提示-->
+        <div style="display:block;left: 300px; top: 10px;" id="msg-header">
+            <div id="msg" class="alert cus-alert alert-info"> 
+            </div>
+        </div>
+
+        <div style="position: relative;margin-top:10px">
+            <div style="position: absolute;height: 280px;width: 74%;left:0;overflow-y:scroll;" class="cus-scrollbar" id="panelDiv">
+            </div>
+            <div style="position: absolute;width: 25%;right:0;" id="rightDiv">
+                <div class="cus-vertical-line" id="cus_vertical_line"></div>
+                <div class="panel panel-default" style="position: absolute;height: 150px;width: 98%;right:0;text-align:center;" id="btnDiv">
+                    <button class="rkmd-btn ripple-effect btn-green" style="font-size:30px;border-radius:50%;height:120px;" onclick="breakdown()" id="btnBreakdown">合格件</button>
+                </div>
+
+                <div class="panel panel-default" style="background-color:rgba(96,96,96,0.5);color:#D3D3D3;position: absolute;width: 96%;right:0;top:150px;display:none" id="paramDiv">
+                    <div class="panel-heading" style="font-size:26px">设备参数</div>
+                    <div style="font-size:22px;width:100%;overflow-y:scroll;" class="cus-scrollbar" id="tableDiv">
+                        <table id="paramTable" style="margin:0 auto">
+                        </table>
+                    </div>
+                </div>
+
+                <div class="panel panel-default" style="position: absolute;height: 130px;width: 98%;right:0;text-align:center;bottom:0;" id="mesDiv">
+                    <div style="font-size:30px">MES启用</div>
+                    <div style="margin-bottom:20px">
+                        <a href="#" class="toggle toggle--on"></a>
+                        <script>
+                            $('.toggle').click(function (e) {
+                                var toggle = this;
+
+                                e.preventDefault();
+
+                                $(toggle).toggleClass('toggle--on')
+                                       .toggleClass('toggle--off')
+                                       .addClass('toggle--moving');
+
+                                setTimeout(function () {
+                                    $(toggle).removeClass('toggle--moving');
+                                }, 200)
+
+                                $("#error_tip").text("");
+                                if (toggle.className.indexOf("off") != -1) { 
+                                    $("#myModal").modal();
+                                } else {
+                                    form_syn.changeThreadAction(true);
+                                    var manualTreatEnable = form_syn.manualTreatEnable();
+    								if (manualTreatEnable) {
+        								document.getElementById("btnBreakdown").disabled = false;
+    								}
+                                }
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="position: absolute; " data-backdrop="static">
+            <div class="modal-dialog dialogCusteom" style="margin: 0 auto;position: absolute;top: 0;bottom: 0;left: 0;right: 0;">
+                <div class="modal-content dialog" style="width: 50%;margin: 0 auto;position: absolute;top: 40%;left: 0;right: 0;min-height:180px;max-height: 220px;">
+                    <div class="modal-header" style="border-bottom:unset!important;padding-bottom:unset!important">
+                    </div>
+                    <div class="modal-body content">
+                        <table class="content" id="plan_content" style="font-size:28px;width:500px;margin-top:10px">
+                            <tr>
+                                <td class="modal_td2" style="text-align:center"><span style="color:red">*</span>请输入密码</td>
+                                <td class="modal_td2" style="height:45px"><input type="password" class="form-control" id="psw" style="height:50px;width:300px;font-size:28px;color:#f5f5f5;" /></td>
+                            </tr>
+                            <tr><td></td><td id="error_tip" width="200px" class="required" style="color:red"></td></tr>
+                        </table>
+                    </div>
+                    <div class="modal-footer" style="border-top:unset!important;padding-top:unset!important">
+                        <button class="rkmd-btn btn-teal ripple-effect" style="font-size:28px;border-radius:5px;height:50px;" onclick="check()" id="btnSubmit">提交</button>
+                        <button class="rkmd-btn btn-white ripple-effect ripple-dark" style="font-size:28px;border-radius:5px;height:50px;margin-left:10px" onclick="cancel()" id="btnCancel">取消</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+</body>
+</html>

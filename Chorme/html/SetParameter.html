@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <title>参数设置</title>
+
+    <link href="../style/css/Main.css" rel="stylesheet" />
+    <link href="../style/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../style/css/component.css" />
+    <link href="../style/css/jquery.alertable.css" rel="stylesheet" />
+    <link href="../style/css/btn.style.css" rel="stylesheet" />
+
+    <script src="../style/js/modernizr.custom.js"></script>
+    <script src="../style/js/jquery-3.3.1.min.js"></script>
+    <script src="../style/js/bootstrap.js"></script>
+    <script src="../style/js/jquery.alertable.js"></script> 
+    <script src="../style/js/btn.index.js"></script>
+
+    <script src="../js/SetParameter.js"></script> 
+    <style>
+        html,body{margin:0px;height:100%}
+        table tr {
+            height:60px;
+        }
+        .custom_input{
+            height:45px;
+            font-size:26px;
+            display:unset;
+            margin-left:5px;
+        }
+        .rkmd-btn {
+            border-radius:5px;height:55px;width:130px;font-size:30px;font-family:'SimHei';font-weight:unset
+        }
+        .cus-line{
+            height: 2px;
+            width: 100%;
+            background: -webkit-linear-gradient(left,rgba(255, 255, 255, 0),#5DDDD3,rgba(255,255,255,0));
+            background: linear-gradient(to right, rgba(255, 255, 255, 0),#5DDDD3,rgba(255,255,255,0));
+
+        }
+        .cus-scrollbar::-webkit-scrollbar{
+            width:10px;
+        }
+        .cus-scrollbar::-webkit-scrollbar-thumb{
+            background-color:#505A66;
+            border-radius:5px;
+        }
+    </style>
+</head>
+<body> 
+    <div class="panel-body">
+        <div class="panel-heading" style="font-size:36px;text-align:center;text-shadow: 1px 1px 2px #eee, 0 0 1em #049df9, 0 0 0.2em #089ef9;">参数设置</div>
+        <div class="cus-line"></div>
+        <div style="height:90%;width:90%;margin:0 auto;margin-top:10px;margin-bottom:10px">
+            <div class="panel panel-default" style="height:100%;box-shadow:#5dddd3 0 0 50px inset;background-color:rgba(93, 221, 211, 0.1);padding:20px">
+                <div class="panel-body">
+                    <div style="text-align:center;overflow-y:scroll;height:650px;" class="cus-scrollbar" >
+                        <table style="font-size:26px;width:100%;margin:0 auto" id="paramTable">
+                        </table> 
+                    </div>
+                    <div style="text-align:center;">
+                        <div style="margin-top:20px;display:none" id="btnsDiv">
+                            <button class="rkmd-btn btn-teal ripple-effect" onclick="modify()" id="btnModify"><span class="glyphicon glyphicon-upload" style="font-size:24px"></span>提交</button>
+                            <button class="rkmd-btn btn-white ripple-effect ripple-dark" style="margin-left:20px" onclick="getParameters()" id="btnCancel"><span class="glyphicon glyphicon-remove-sign" style="font-size:24px"></span>重置</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cus-line" style="margin-bottom:50px"></div>
+    </div>
+</body>
+</html>

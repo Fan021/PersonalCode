@@ -1,0 +1,8 @@
+C:\Users\fan021\Desktop\temp\Chorme\Chorme\bin\Debug\Chorme.exe.config
+C:\Users\fan021\Desktop\temp\Chorme\Chorme\bin\Debug\Chorme.exe
+C:\Users\fan021\Desktop\temp\Chorme\Chorme\bin\Debug\Chorme.pdb
+C:\Users\fan021\Desktop\temp\Chorme\Chorme\obj\Debug\Chorme.csprojResolveAssemblyReference.cache
+C:\Users\fan021\Desktop\temp\Chorme\Chorme\obj\Debug\Chorme.Properties.Resources.resources
+C:\Users\fan021\Desktop\temp\Chorme\Chorme\obj\Debug\Chorme.csproj.GenerateResource.Cache
+C:\Users\fan021\Desktop\temp\Chorme\Chorme\obj\Debug\Chorme.exe
+C:\Users\fan021\Desktop\temp\Chorme\Chorme\obj\Debug\Chorme.pdb

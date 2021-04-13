@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function show()
+        {
+            form_syn.getMessage = "Hello,I'm in js!For attribute";
+            //use the method of class in C#,by the instance registered in C#
+            form_syn.getMessage_method("Hello,I'm in js!For method");
+        }
+        function ShowMsg(id,msg)
+        {
+            alert(msg);
+        }
+        function getMsg()
+        {
+            var a = form_syn.sendMessage;
+            var b = form_syn.returnMessage_method();
+            alert(a);
+            var c = document.getElementById("myInput");
+            c.value=b
+
+        }
+  
+    </script>
+</head>
+<body>
+    <div>This is a test page!</div>
+    <button onclick="show()">CLick me</button>
+    <button onclick="getMsg()">Get Message</button>
+    <input id="myInput"/>
+</body>
+</html>
